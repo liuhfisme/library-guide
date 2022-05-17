@@ -1,0 +1,15 @@
+{
+  "name": "library-guide",
+  "version": "1.0.0",
+  "description": "技术文档",
+  "main": "index.js",
+  "author": "feifei.liu",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.45"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
